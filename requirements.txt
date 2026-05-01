@@ -1,0 +1,32 @@
+# Gesture-Controlled Car — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ─── gesture_car-2.py (local mode with cv2.imshow) ───────────────
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+picamera2>=0.5.0
+gpiozero>=2.0.0
+numpy==1.24.3
+
+# ─── gesture_flask.py (web streaming mode) ───────────────────────
+flask>=2.3.0
+
+# ─── gesture_car_pruning.py (model pruning experiment) ───────────
+# tensorflow>=2.13.0
+# tensorflow-model-optimization>=0.7.0
+
+# ─── NOTES ───────────────────────────────────────────────────────
+# 1. NumPy MUST be 1.24.3 — version 2.x causes binary
+#    incompatibility with system picamera2/simplejpeg.
+#
+# 2. picamera2 and gpiozero are pre-installed on Raspberry Pi OS.
+#    If using a virtual environment, create it with:
+#      python3 -m venv --system-site-packages venv
+#    to access system packages (picamera2, libcamera, gpiozero).
+#
+# 3. System packages needed before pip install:
+#      sudo apt install -y libcap-dev python3-dev python3-libcamera python3-kms++
+#
+# 4. TensorFlow dependencies (for pruning) are commented out
+#    because they are large (~500 MB) and only needed for the
+#    pruning experiment, not for running the car.

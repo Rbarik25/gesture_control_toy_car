@@ -252,6 +252,14 @@ The classifier uses **no machine learning** — it's purely geometric, computed 
 
 ---
 
+## Presentation and demo Link:
+
+https://drive.google.com/file/d/1SGjZ2tPcxkoMyVv4deopUdl5ZfRIwkbu/view?usp=sharing
+
+https://drive.google.com/file/d/1eOKqtcF5Vrtj3E8GR643PfRDqlS4vYUe/view?usp=drivesdk
+
+---
+
 ## Dependencies
 
 ```

@@ -283,3 +283,4 @@ No external datasets were used. The gesture classification is rule-based and req
 ## License
 
 This project was developed for academic purposes as part of the Edge AI course, IISc, Bengaluru
+Course Website : https://www.samy101.com/edge-ai-26/
